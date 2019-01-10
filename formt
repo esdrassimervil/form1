@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+</head>
+<body>
+    <h1> Form type</h1>
+    <form action='http://cs.indstate.edu/~dvaidya/hwref/hw3.php' method='post' enctype='multipart/form-data'>
+    <table>
+        <tbody>
+        <tr>
+            <th>
+            <th>New Member Form
+        <tr>
+            <td>Sender:</td>
+            <td> <input type='text' placeholder='Real Name'name='realname' required></td>
+        </tr>
+        <tr>
+            <td>Major:</td>
+            <td><input type='text' placeholder='Your Major' name='major'></td>
+        </tr>
+        <tr>
+            <td>Year:</td>
+            <td> <select name='year'>
+                    <option>Freshman</option>
+                    <option>Sophmore</option>
+                    <option>Junior</option>
+                    <option>Senior</option>
+                 </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Going on <br>to <br>grad <br>school?</td>
+            <td><input type='radio' name='grad'> Yes<input type='radio' name='grad'> No<input type='radio' name='grad'> Maybe</td>
+        </tr>
+        <tr>
+            <td>Above 3.5<br> GPA?</td>
+            <td><input type='checkbox' name='gpa'></td>
+        </tr>
+        <tr>
+            <td>Telephone:</td>
+            <td><input type='type' name='tele' placeholder='(xxx) xxx-xxxx'></td>
+        </tr>
+        <tr>
+            <td>E-Mail:</td>
+            <td><input type='text' placeholder='someone@host' name='email' required></td>
+        </tr>
+        <tr>
+            <td>Message:</td>
+            <td><textarea name='message'></textarea></td>
+        </tr>
+        <tr>
+            <td>
+        <td><input type='submit'><input type='reset'></td>
+        </tbody>
+    </table>
+    </form>
+</body>    
+</html>
